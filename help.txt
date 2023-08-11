@@ -15,3 +15,11 @@ git add .  -Добавление всех файлов
 git commit -m "Комментарий операции"
 git remote add origin (ссылка на репозиторий в github)
 git push -u origin main
+============================================
+====Кратко====
+git status
+git add .
+git commit -m "Комментарий операции"
+git status
+git push -u origin develop
+
