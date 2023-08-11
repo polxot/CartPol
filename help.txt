@@ -1,0 +1,17 @@
+clear -очистка окна терминала
+git --version - проверка версии git
+git config --global user.name "Pavel Tamarin"
+git config --global user.email tampol40@gmail.com
+git config --list -проверка  конфигурации
+============================================================
+git init -Инициализировать репозиторий
+ls -a    -Проверка всех директорий папки
+============================================================
+====Основные команды====
+git init -
+git status -Проверка  файлов в каком состоянии находятся
+git add .  -Добавление всех файлов
+.gitignore -Файлы не добавляемые в репозиторий
+git commit -m "Комментарий операции"
+git remote add origin (ссылка на репозиторий в github)
+git push -u origin main..
